@@ -1,0 +1,10 @@
+.dog-images {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+img {
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: cover;
+}
